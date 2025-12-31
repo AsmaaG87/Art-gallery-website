@@ -550,6 +550,7 @@ body {
           background-color: #151515;
           height: 800px;
           z-index: 0;
+          margin-left: -1em;
         }
         .hero-img {
           width: 540px;
@@ -581,7 +582,7 @@ body {
           width: 514px;
           position: absolute;
           display: block;
-          left: 240px;
+          left: 230px;
           top: 190px;
           bottom: auto;
           right: auto;
@@ -702,3 +703,4 @@ body {
          }
          
     
+
