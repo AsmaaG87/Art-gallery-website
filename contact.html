@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find the Modern Art Gallery located at 99 King Street, Newport, RI. Open daily from 8am to 9pm, free entry for all art enthusiasts.">
+    <meta name="keywords" content="art gallery, location, address, Modern Art Gallery, visiting hours, contact">
+    <meta name="author" content="Asmaa GAD">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <title>Art gallery website</title>
+</head>
+<body>
+    <div class="location-container">
+        <main>
+        <div class="map-sec">
+               <div class="btn-sec">
+                <a href="index.html"
+                    rel="noopener"
+                    aria-label="back to homepage link"
+                    class="backhome-link">
+                    <span class="backhome-text">Back to home</span>
+                    <div class="backhome-link-img">
+                   <img src="resources/images/icon-arrow-left.svg"
+                    alt="arrow pointing left."
+                    class="left-arrow-icon"
+                    width="10"
+                    height="24"></div>
+                </a>
+              </div> 
+            <div id="map" class="map"></div>
+        </div>
+        <section class="address-sec">
+            <h1>Our Location</h1>
+           <div class="address-description">
+            <address>
+                <strong>99 King Street</strong><br>
+                Newport<br>
+                RI 02840<br>
+                United States of America
+            </address>
+            <p>Our newly opened gallery is located near the Edward King House on 99 King 
+                Street, the Modern Art Gallery is free to all visitors and open seven days 
+                a week from <time datetime="08:00">8am</time> to <time datetime="21:00">9pm</time>.</p>
+           </div>
+        </section>
+        </main>
+        <footer class="contact-footer">
+             <div class="contact-footer-sec">
+            <img src="resources/images/logo-dark.svg"
+                alt="Modern Art Gallery logo"
+                class="dark-logo"
+                width="110"
+                height="40">
+            <address>
+               <p>The Modern Art Gallery is free to all visitors and open seven days a week 
+                from <time datetime="08:00">8am</time> to <time datetime="21:00">9pm</time>. Find us at 99 King Street, Newport, USA.</p>
+            </address>
+        </div>
+           <div class="contact-social-media-links">
+            <a href="https://www.facebook.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="facebook link">
+                <img src="resources/images/icon-facebook.svg"
+                  alt="facebook icon"
+                  class="dark-facebook-icon"
+                  width="20"
+                  height="20">
+            </a>
+            <a href="https://www.twitter.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="twitter link">
+                <img src="resources/images/icon-twitter.svg"
+                  alt="twitter icon"
+                  class="dark-twitter-icon"
+                  width="20"
+                  height="20">    
+            </a>
+            <a href="https://www.instagram.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="instagram link">
+                <img src="resources/images/icon-instagram.svg"
+                  alt="instagram icon"
+                  class="dark-instagram-icon"
+                  width="20"
+                  height="20">
+            </a>
+        </div>
+        </footer>
+    </div>
+    <small>
+      &copy; 2025 Developed by <a href="https://x.com/Asmaagadel">Asmaa GAD</a>
+    </small>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="resources/js/index.js"></script>
+</body>
+</html>
